@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(to bottom, #160b11, #1b0f19, #1f1321, #20172a, #1e1c34, #19223b, #0f2842, #002e47, #003449, #003a48, #004045, #054541);
+}
+
+.navbar {
+    background-color: #ff3333;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px;
+}

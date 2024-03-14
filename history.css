@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.transparent-navbar {
+    background: transparent;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.button {
+    margin-left: auto;
+}
+
+/*.left-button {
+    
+}*/
+
+#sectiune {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.articol {
+    
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sectiune-secundara {
+    
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#white-background-section,
+#red-background-section,
+#latest-stories-section {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+#white-background-section {
+    background-color: white;
+    color: red;
+}
+
+#red-background-section {
+    background-color: red;
+    color: white;
+}
+
+#latest-stories-section {
+    background-color: white;
+    color: red;
+}
+
+#navbar {
+    background: transparent;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#navbar.scrolled {
+    background-color: #000; 
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    #navbar {
+        padding: 15px 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .button {
+        margin-left: 0;
+    }
+
+   /* .left-button {
+        
+    }*/
+
+    #meniu {
+        display: none;
+        
+    }
+}
